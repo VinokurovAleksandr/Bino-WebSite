@@ -16,7 +16,7 @@
 
 html,
 body {
-
+  
     height: 100%;
     min-width: 320px;
     background-color: #FDFBF5;
@@ -70,12 +70,16 @@ h6 {
 }
 
 .wrapper {
-    /* width: 1300px; */
-    min-height: 100%;
-    overflow: clip;
-    /* border: 1px solid #000; */
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
     flex-direction: column;
+    /* width: 1300px; */
+    
+    height: 100%;
+    overflow: clip;
+ 
+    
     /* прибиваємо футер до низу */
 }
 
@@ -131,15 +135,26 @@ h6 {
 
 }
 .menu__item {
+    
 }
+
 .menu__link {
+    position: relative;
     font-family: Syne;
     font-size: 16px;
     font-weight: 400;
     color: #000;
     
 }
+
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+
 .header__button {
+    position: relative;
     width: 130px;
     height: 40px;
     font-family: Syne;
@@ -147,16 +162,26 @@ h6 {
     font-weight: 600;
 }
 
+/* .header__button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 150px;
+    align-content: center;
+    width: 25px;
+    transform: rotate(90deg);
+    border: 1px black solid;
+
+} */
+
 
 .button {
 }
 .header__social {
-}
-.social {
-
+   
 }
 .social__list {
-    display: flex;
+   display: flex;
     align-items: center;
     gap: 15px;
 }
@@ -186,4 +211,23 @@ h6 {
 .social__item:focus{
 
   scale: 1.2;
+}
+
+
+.pages {
+}
+.page__main {
+}
+.main-section {
+    min-width: 100%;
+    position: relative;
+}
+.main-section__container {
+}
+.main-section__content {
+}
+.main-section__img {
+    position: absolute;
+}
+.main-section-title {
 }
