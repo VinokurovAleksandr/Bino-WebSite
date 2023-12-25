@@ -70,14 +70,19 @@ h6 {
 }
 
 .wrapper {
-    display: flex;
+    /* display: flex; */
     /* justify-content: center;
     align-items: center; */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* width: 1300px; */
     
-    height: 100%;
-    overflow: clip;
+    /* height: 100%;
+    overflow: clip; */
+
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
  
     
     /* прибиваємо футер до низу */
